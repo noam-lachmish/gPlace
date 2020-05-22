@@ -1,0 +1,161 @@
+﻿
+body {
+    background-image: url('pics/unite.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.aurv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262626;
+    top: 0;
+    style="width: 168px; height: 214px" 100%;
+}
+
+.sB {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    top: 0;
+    style="width: 168px; height: 214px" 100%;
+    text-align: center;
+}
+
+.pp {
+    background-color: white;
+}
+
+#home-table {
+    style="width: 168px; height: 214px" 100%;
+    height: 900px;
+}
+
+.LbB {
+    float: left;
+}
+
+    .LbB input {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        style="width: 168px; height: 214px" 935px;
+        height: 275px;
+        text-decoration: none;
+        background-color: darkblue;
+        font-size: xx-large;
+    }
+
+        .LbB input:hover:not(.active) {
+            background-color: white;
+            color: black;
+        }
+
+.RbB {
+    float: right;
+}
+
+
+    .RbB input {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        style="width: 168px; height: 214px" 935px;
+        height: 275px;
+        text-decoration: none;
+        background-color: darkred;
+        font-size: xx-large;
+    }
+
+        .RbB input:hover:not(.active) {
+            background-color: white;
+            color: black;
+        }
+
+.nv {
+    float: left;
+}
+
+    .nv button {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: dimgray;
+    }
+
+        .nv button:hover:not(.active) {
+            background-color: darkgoldenrod;
+        }
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+.bad_input {
+    background-color: red;
+}
+
+.wrapper {
+    height: 800px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5px;
+    grid-auto-rows: minmax(60%, auto);
+}
+
+
+.xbox {
+    grid-column: 1 /2;
+    grid-row: 2/3;
+    background-color: green;
+}
+
+.ps {
+    grid-column: 1 /2;
+    grid-row: 1/2;
+    background-color: blue;
+}
+
+.pc {
+    grid-column: 2 /3;
+    grid-row: 2/3;
+    background-color: white;
+}
+
+.nintendo {
+    grid-column: 2 /3;
+    grid-row: 1/2;
+    background-color: red;
+    background-image: url();
+}
+
+    .nintendo img {
+        style="width: 168px; height: 214px" 100%;
+        height: 100%;
+    }
+
+.pc img {
+    style="width: 168px; height: 214px" 100%;
+    height: 100%;
+}
+
+.ps img {
+    style="width: 168px; height: 214px" 100%;
+    height: 100%;
+}
+
+.xbox img {
+    style="width: 168px; height: 214px" 100%;
+    height: 100%;
+}

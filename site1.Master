@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="gPlace.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <table>
+        <tr class="aurv">
+            <td class="nv">
+                <button  onclick="switchpage('home.aspx')">Home</button></td>
+
+            <td class="nv">
+                <button  onclick="switchpage('Genres.aspx')">Geners</button></td>
+
+            <td class="nv">
+                <button onclick="switchpage('Sign_up.aspx')">Sign up</button></td>
+
+            <td class="nv">
+                <button onclick="switchpage('Games.aspx')">Games</button></td>
+
+            <td class="nv">
+                <button onclick="switchpage('origin.aspx')">Origin</button></td>
+
+            <td class="nv">
+                <button onclick="switchpage('platforms.aspx')">Platforms</button></td>
+
+            <td class="nv">
+                <button onclick="switchpage('Comparison.aspx')">Comparison</button></td>
+
+            <td class="nv">
+                <button onclick="switchpage('Game_review_videos.aspx') ">Game review videos</button></td>
+
+
+        </tr>
+    </table>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
